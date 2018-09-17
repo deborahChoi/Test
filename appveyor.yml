@@ -94,6 +94,7 @@ build_script:
   #- call ./build/run_cmake_vs_2017_x64_appveyor.bat
   #- cd cmake_build
   - call ./build/run_cmake_vs_2017_x64.bat
+  - ls
   - cd cmake_build
   - msbuild helloworld.sln
   #- ctest
