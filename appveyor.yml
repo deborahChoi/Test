@@ -45,7 +45,7 @@ build_script:
   #- git submodule update
   #- git submodule add https://github.com/z-emotion/Zelus.git
   - git clone --recurse-submodules os: Visual Studio 2017
-platform: x64
+#platform: x64
 
 #
 # Custom environment variables
