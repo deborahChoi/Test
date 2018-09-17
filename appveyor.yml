@@ -91,13 +91,13 @@ build_script:
   #- git submodule update
   #- git submodule add https://github.com/z-emotion/Zelus.git
   - git clone --recurse-submodules https://github.com/deborahChoi/Sub.git
-  - call ./build/run_cmake_vs_2017_x64_appveyor.bat
-  - cd cmake_build
-  - msbuild Z-Weave.sln
-  #- ctest
-  - cd ..
   #- call ./build/run_cmake_vs_2017_x64_appveyor.bat
+  #- cd cmake_build
+  - call ./run_cmake_vs_2017_x64.bat
   - cd cmake_build
+  - msbuild helloworld.sln
+  #- ctest
+  
   #- msbuild Z-Weave.sln
   #- ctest
   - cd ..
