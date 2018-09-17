@@ -98,7 +98,7 @@ build_script:
   - ls
   - cd cmake_build
   - ls
-  - msbuild helloworld.sln
+  - msbuild project.sln
   #- ctest
   
   #- msbuild Z-Weave.sln
