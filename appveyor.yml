@@ -97,6 +97,7 @@ build_script:
   - cd build
   - ls
   - cd cmake_build
+  - ls
   - msbuild helloworld.sln
   #- ctest
   
